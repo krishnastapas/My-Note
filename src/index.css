@@ -1,0 +1,196 @@
+.dark-mode{
+  background-color: rgba(0, 0, 0, 0.959);
+  min-height: 100vh;
+  border: rgb(245, 30, 14);
+  
+  
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-color: rgb(175, 220, 238);
+  
+  height: 100px;
+   padding: 25px 50px 75px 100px;
+  
+  text-align: center;
+}
+
+
+button {
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(70, 65, 65);
+  
+  color: white;
+  float:right;
+}
+button:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+
+.nav-div{
+  border-style: solid;
+  border-width: 2px;
+  height:40px;
+  background-color: rgb(51, 51, 129);
+}
+.navbar{
+  margin: 2px 10% 2px 10%;
+   display: flex;
+  /* border-style: solid;
+  border-width: 2px; */
+  height:35px;
+  background-color: rgb(51, 51, 129);
+  color:white
+ 
+  
+
+}
+.navLeft{
+  flex:15%;
+  float: left;
+  
+ 
+  /* border-style: solid;
+  border-width: 2px; */
+  padding: 8px 10px 10px 10px ;
+}
+/* .SearchLeft:hover{
+  color:yellow
+} */
+.Search{
+  flex:60%;
+  /* border-style: solid;
+  border-width: 2px; */
+}
+.navRight{
+  flex:20%;
+  
+  /* border-style: solid;
+  border-width: 2px; */
+}
+#home{
+  color:white;
+  
+}
+a{
+  text-decoration: none;
+  color:rgb(121, 113, 113);
+}
+.searchbox{
+  
+  /* border-style: solid;
+  border-width: 2px; */
+  width:100%;
+  height: 100%;
+  border-radius: 5px;
+ 
+  /* padding: 5px 0px 10px 10px ; */
+}
+
+
+.searchButton{
+  float: left;
+  background-color: green;
+  height: 100%;
+  
+}
+.middle-container{
+  /* border-style: solid;
+  border-width: 2px; */
+
+}
+.note-container{
+  
+  border-style: groove;
+  border-width: 2px;
+  /* width:90%; */
+  
+  margin: 20px 10% 20px 10%;
+  
+}
+.nodelist{
+  display: flex;
+  border-style: outset;
+  border-width: 2px;
+  height:40px;
+}
+.note{
+  flex:80%;
+  /* border-style: solid;
+  border-width: 2px; */
+  padding: 8px 10px 10px 10px ;
+  
+}
+.date-div{
+  flex:10%;
+  text-align: center;
+ 
+}
+.delete-div{
+  background-color: rgb(241, 158, 158);
+  flex:10%;
+  margin: 5px 5px 5px 5px;
+  /* border-style: groove;
+  border-width: 2px; */
+
+}
+.add-div{
+  display: flex;
+  border-style: outset;
+  border-width: 2px;
+  height:40px;
+}
+.name-input{
+  /* border-style: groove;
+  border-width: 2px; */
+  flex:90%;
+  padding: 8px 10px 10px 10px ;
+  margin: 5px 5px 5px 5px;
+}
+.addnote{
+
+  background-color: green;
+ 
+  flex:10%;
+  margin: 5px 5px 5px 5px;
+  
+}
+.SaveButtonDiv{
+  /* border-style: solid;
+  border-width: 2px; */
+  height:40px;
+  display: flex;
+  justify-content: center;
+}
+.SaveButton{
+  margin-top: 4px;
+  border-style: solid;
+  border-width: 2px;
+  height: 30px;
+  background-color: green;
+
+}
+#textAreaDiv{
+  margin-top: 4px;
+  border-style: solid;
+  height: 400px;
+  
+}
+.TextArea{
+  width:90%;
+  height: 300px;
+  max-height: 80%;
+  margin:0% 5% 0% 5% ;
+}
+#noteheading{
+  text-align: center;
+  padding:10px 10px 10px 10px;
+}
